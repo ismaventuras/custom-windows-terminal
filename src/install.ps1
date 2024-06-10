@@ -1,8 +1,3 @@
-param(
-    [string]$ProfileName = "",
-    [switch]$Delete,
-    [switch]$SetAsDefault
-)
 $settingsPath = "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 $profiles = @{
@@ -58,23 +53,13 @@ function Install-Profile {
     # Add the new profile to the list of profiles
     $settingsJson.profiles.list += $newProfile
 
-
-    if($SetAsDefault){
-        $settingsJson.defaultProfile = $newProfile.guid
-        Write-Host "Profile '$($newProfile.name)' set as default."
-    }else{
-    # Prompt the user if they want to set the new profile as default
-    # $setAsDefault = Read-Host "Do you want to set the new profile '$($newProfile.name)' as the default terminal? (yes/no, default: yes)" -DefaultValue "yes"
-    # if ($setAsDefault -eq "yes" -or $setAsDefault -eq "y") {
-        $settingsJson.defaultProfile = $newProfile.guid
-        # Write-Host "Profile '$($newProfile.name)' set as default."
-    # }
-    }
+    $settingsJson.defaultProfile = $newProfile.guid
+    
     # Convert the updated settings back to JSON
     $updatedSettingsJson = $settingsJson | ConvertTo-Json -Depth 10
     # Write the updated JSON back to the settings file
     Set-Content -Path $settingsPath -Value $updatedSettingsJson
-    Write-Host "New profile added successfully."
+    Write-Host "$($newProfile.name) added successfully."
 }
 
 function Remove-Profile {
@@ -107,10 +92,4 @@ function Remove-Profile {
     }
 }
 
-if ($Delete) {
-    Remove-Profile $ProfileName
-} elseif ($profiles.ContainsKey($ProfileName)) {
-    Install-Profile -profilePath $profiles[$ProfileName]
-} else {
-    Show-ProfileMenu
-}
+Show-ProfileMenu
