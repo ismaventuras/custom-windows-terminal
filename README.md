@@ -15,3 +15,18 @@ A preset of profiles for windows terminal
 irm https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/src/install.ps1 | iex
 ```
 - You will see the list of profiles to install. Follow the on-screen instructions.
+
+
+## Profiles
+
+### Windows Waves Revolution
+
+<img src="https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/images/demo/windows-waves.png" alt="windows-waves">
+
+### Windows Waves
+
+<img src="https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/images/demo/windows-waves-revolution.png" alt="windows-waves-revolution">
+
+### LoFi Girl
+
+<img src="https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/images/demo/lofi-girl.png" alt="lofi-girl">
