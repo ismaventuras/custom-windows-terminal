@@ -23,10 +23,11 @@ irm https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/maste
 
 <img src="https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/images/demo/windows-waves-revolution.gif" alt="windows-waves">
 
+### LoFi Girl
+
+<img src="https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/images/demo/lofi-girl.gif" alt="lofi-girl">
+
 ### Windows Waves
 
 <img src="https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/images/demo/windows-waves.gif" alt="windows-waves-revolution">
 
-### LoFi Girl
-
-<img src="https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/images/demo/lofi-girl.gif" alt="lofi-girl">

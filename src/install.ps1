@@ -64,11 +64,11 @@ function Install-Profile {
         Write-Host "Profile '$($newProfile.name)' set as default."
     }else{
     # Prompt the user if they want to set the new profile as default
-    $setAsDefault = Read-Host "Do you want to set the new profile '$($newProfile.name)' as the default terminal? (yes/no, default: yes)" -DefaultValue "yes"
-    if ($setAsDefault -eq "yes" -or $setAsDefault -eq "y") {
+    # $setAsDefault = Read-Host "Do you want to set the new profile '$($newProfile.name)' as the default terminal? (yes/no, default: yes)" -DefaultValue "yes"
+    # if ($setAsDefault -eq "yes" -or $setAsDefault -eq "y") {
         $settingsJson.defaultProfile = $newProfile.guid
-        Write-Host "Profile '$($newProfile.name)' set as default."
-    }
+        # Write-Host "Profile '$($newProfile.name)' set as default."
+    # }
     }
     # Convert the updated settings back to JSON
     $updatedSettingsJson = $settingsJson | ConvertTo-Json -Depth 10
