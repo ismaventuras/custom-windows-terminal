@@ -4,6 +4,7 @@ $profiles = @{
     "Windows Waves" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/themes/windows-waves.json"
     "Windows Waves Revolution" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/themes/windows-waves-revolution.json"
     "LoFi Girl" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/themes/lofi-girl.json"
+    "Vegeta" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/themes/vegeta.json"
 }
 
 function Show-ProfileMenu {
