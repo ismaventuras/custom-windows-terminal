@@ -15,7 +15,10 @@ A preset of profiles for windows terminal
 irm https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/src/install.ps1 | iex
 ```
 - You will see the list of profiles to install. Follow the on-screen instructions.
-
+- To uninstall a profile, you can do it manually or using this script
+```
+irm https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/src/uninstall.ps1 | iex
+```
 
 ## Profiles
 
