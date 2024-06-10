@@ -1,0 +1,13 @@
+{
+    "backgroundImage": "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/main/images/gifs/lofi-girl.gif",
+    "backgroundImageOpacity": 0.1,
+    "backgroundImageStretchMode": "uniformToFill",
+    "colorScheme": "Campbell",
+    "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "guid": "{5f557654-4dd6-4d61-a0b1-2720071fba0b}",
+    "hidden": false,
+    "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+    "name": "LoFi Girl",
+    "padding": "8, 8, 8, 8",
+    "startingDirectory": "%USERPROFILE%"
+}

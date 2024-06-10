@@ -1,0 +1,12 @@
+{
+    "backgroundImage": "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/main/images/gifs/hl9wfdi3s2o91.gif",
+    "backgroundImageAlignment": "bottomRight",
+    "backgroundImageStretchMode": "none",
+    "colorScheme": "Tango Dark",
+    "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "guid": "{6f51e90d-03e7-43cb-a731-13bdd26d2131}",
+    "hidden": false,
+    "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+    "name": "Windows Waves Revolution",
+    "startingDirectory": "%USERPROFILE%"
+}

@@ -1,0 +1,12 @@
+{
+    "backgroundImage": "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/main/images/gifs/7yjkat05r2o91.gif",
+    "backgroundImageAlignment": "bottomRight",
+    "backgroundImageStretchMode": "none",
+    "colorScheme": "Tango Dark",
+    "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "guid": "{eddcb598-cfa8-4721-ae4c-c4bd0998fa49}",
+    "hidden": false,
+    "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
+    "name": "Windows Waves",
+    "startingDirectory": "%USERPROFILE%"
+}
