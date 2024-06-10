@@ -6,9 +6,9 @@ param(
 $settingsPath = "$env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
 
 $profiles = @{
-    "Windows Waves" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/main/themes/windows-waves.json"
-    "Windows Waves Revolution" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/main/themes/windows-waves-revolution.json"
-    "LoFi Girl" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/main/themes/lofi-girl.json"
+    "Windows Waves" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/themes/windows-waves.json"
+    "Windows Waves Revolution" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/themes/windows-waves-revolution.json"
+    "LoFi Girl" = "https://raw.githubusercontent.com/ismaventuras/custom-windows-terminal/master/themes/lofi-girl.json"
 }
 
 function Show-ProfileMenu {
